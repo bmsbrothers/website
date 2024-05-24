@@ -14,7 +14,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <Router basename="/repository-name">
+    <Router>
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
