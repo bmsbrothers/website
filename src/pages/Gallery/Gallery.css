@@ -132,9 +132,11 @@
 
 /* Tambahkan warna latar belakang berbeda untuk setiap bagian media */
 .media-section.photos {
+  color: black;
   background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
 }
 
 .media-section.videos {
+  color: black;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
 }
