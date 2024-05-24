@@ -38,7 +38,7 @@ function Home() {
     <div className="home">
       <div className="hero-container">
         <img
-          src="${process.env.PUBLIC_URL}hero.png"
+          src={`${process.env.PUBLIC_URL}/hero.png`}
           alt="Hero"
           className="hero-image"
         />
@@ -82,7 +82,7 @@ function Home() {
       <div className="guest-star">
         <div className="guest-star-container full-width">
           <img
-            src="${process.env.PUBLIC_URL}pmr_band.jpg"
+            src={`${process.env.PUBLIC_URL}/pmr_band.jpg`}
             alt="Guest Star"
             className="guest-star-image"
           />
@@ -95,7 +95,7 @@ function Home() {
       <div className="guest-star">
         <div className="guest-star-container full-width">
           <img
-            src="${process.env.PUBLIC_URL}guest_star.jpg"
+            src={`${process.env.PUBLIC_URL}/guest_star.jpg`}
             alt="Guest Star"
             className="guest-star-image"
           />
@@ -108,38 +108,31 @@ function Home() {
       <h2 className="guest-star-heading-media">Media Partner</h2>
       <div className="logo-container">
         <img
-          src="${process.env.PUBLIC_URL}images/vidio.png"
+          src={`${process.env.PUBLIC_URL}/images/vidio.png`}
           alt="Logo 1"
           className="logo-image"
         />
         <img
-          src="${process.env.PUBLIC_URL}images/sctv.png"
+          src={`${process.env.PUBLIC_URL}/images/sctv.png`}
           alt="Logo 2"
           className="logo-image"
         />
         <img
-          src="${process.env.PUBLIC_URL}images/prmi_indonesia.png"
+          src={`${process.env.PUBLIC_URL}/images/prmi_indonesia.png`}
           alt="Logo 3"
           className="logo-image"
         />
         <img
-          src="${process.env.PUBLIC_URL}images/prmi_jakarta.png"
+          src={`${process.env.PUBLIC_URL}/images/prmi_jakarta.png`}
           alt="Logo 4"
           className="logo-image"
         />
         <img
-          src="${process.env.PUBLIC_URL}images/bms.png"
+          src={`${process.env.PUBLIC_URL}/images/bms.png`}
           alt="Logo 5"
           className="logo-image"
         />
       </div>
-      {/*<div className="countdown-timer">
-        <p>Waktu Sisa:</p>
-        <p>
-          {timeLeft.days} Hari : {timeLeft.hours} Jam : {timeLeft.minutes} Menit
-          : {timeLeft.seconds} Detik
-        </p>
-  </div>*/}
     </div>
   );
 }
