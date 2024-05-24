@@ -1,0 +1,34 @@
+.bottom-navbar {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  /* Mengatur posisi awal di tengah */
+  transform: translateX(-50%);
+  /* Menggeser ke kiri sejauh setengah dari lebarnya */
+  width: 100%;
+  /*background: linear-gradient(to bottom, #000, #333);*/
+  /*border-top: 1px solid #444;*/
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-item.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Menyesuaikan lebar bottom navbar untuk layar laptop atau desktop */
+@media only screen and (min-width: 768px) {
+  .bottom-navbar {
+    max-width: 480px;
+    width: 100%;
+    padding: 10px;
+  }
+}
