@@ -38,7 +38,7 @@ function Home() {
     <div className="home">
       <div className="hero-container">
         <img
-          src={`${process.env.PUBLIC_URL}/hero.png`}
+          src={`${process.env.PUBLIC_URL}/images/hero.png`}
           alt="Hero"
           className="hero-image"
         />
@@ -82,7 +82,7 @@ function Home() {
       <div className="guest-star">
         <div className="guest-star-container full-width">
           <img
-            src={`${process.env.PUBLIC_URL}/pmr_band.jpg`}
+            src={`${process.env.PUBLIC_URL}/images/pmr_band.jpg`}
             alt="Guest Star"
             className="guest-star-image"
           />
@@ -95,7 +95,7 @@ function Home() {
       <div className="guest-star">
         <div className="guest-star-container full-width">
           <img
-            src={`${process.env.PUBLIC_URL}/guest_star.jpg`}
+            src={`${process.env.PUBLIC_URL}/images/guest_star.jpg`}
             alt="Guest Star"
             className="guest-star-image"
           />
